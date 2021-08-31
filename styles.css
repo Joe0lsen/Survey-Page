@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    background-image: url("images/Desk Wood.jpg");
+    background-color: burlywood;
+}
+
+#title, #text-foot, #text-foot a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+    background-image: url("images/Notebook Paper.png");
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#survey-form {
+    margin: 10px 40px 20px 19.4%;
+}
+
+@media (min-width: 720px) {
+    main {
+        width: 720px;
+    }
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+fieldset {
+    padding: 0px;
+    margin: 16px auto 16px 0px;
+    border-width: 0px;
+}
+
+#numLangs, .check-set {
+    display: flex;
+    flex-direction: column;
+}
+
+#check-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.check-set {
+    padding-right: 15px;
+    width: max-content;
+}
+
+input, textarea, select {
+    padding: 4px;
+}
+
+input:not(input[type="radio"], input[type="checkbox"]), textarea, select {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px grey;
+    opacity: 0.8;
+    width: 100%;
+    border-width: 1px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-left: 2px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    margin: 30px 0px;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 1.2em;
+    width: 100%;
+    height: auto;
+    color: white;
+    background: dodgerblue;
+}
+
+#text-foot, #text-foot a {
+    margin: 16px auto;
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+#text-foot a:hover {
+    color: black;
+}
